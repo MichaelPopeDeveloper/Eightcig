@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.search-bar input {
+    padding: 10px;
+}
+
+nav a, .cart {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
+}
+
+.slide img {
+    max-width: 100%;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+main {
+    padding: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content
